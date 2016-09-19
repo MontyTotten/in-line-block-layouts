@@ -7,14 +7,6 @@
 			padding-top: 15px;
 			padding-bottom: 10px;
 		}
-		/*html {
-			border: 10px;
-			background-color: blue;
-			margin-left: 158px;
-			margin-right: auto;
-			width: 1131px;
-			height: 918px;
-			}*/
 		header,
 		footer {
 			display: block;
@@ -24,59 +16,43 @@
 			margin-left: auto;
 			margin-right: auto;
 		}
-		article {
+		main {
 			display: block;
 			width: 780px;
 			height: 670px;
 			margin-left: auto;
 			margin-right: auto;
-
-		}
-		article {
-			font-size: 0px;
+			font-size: 0;
 			padding-top: 10px;
 			padding-bottom: 10px;
 		}
-		section.blue {
+		.column {
 			display: inline-block;
 			width: 260px;
 			height: 670px;
+			font-size: 0px;
+		}
+		section#blue {
 			background-color: #2EBCF4;
-			margin:0;
 		}
-		section.green {
-			display: inline-block;
-			width: 260px;
-			height: 670px;
+		section#green {
 			background-color: #38BA48;
-			margin: 0;
 		}
-		section.yellow {
-			display: inline-block;
-			width: 260px;
-			height: 670px;
+		section#yellow {
 			background-color: #FCFD00;
-			margin: 0;
 		}
 	</style>
 </head>
 <body>
-<header class="header"></header>
+<header></header>
 <main>
-	<div>
-		<article class="">
-			<section class="blue">
-				
-			</section>
-			<section class="green">
-				
-			</section>
-			<section class="yellow">
-				
-			</section>
-		</article>
-	</div>
+	<section class="column" id="blue">	
+	</section>
+	<section class="column" id="green">	
+	</section>
+	<section class="column" id="yellow">	
+	</section>
 </main>
-<footer class="footer"></footer>
+<footer></footer>
 </body>
 </html>
